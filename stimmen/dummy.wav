@@ -1,0 +1,3 @@
+place a wave+txt file containing your reference voice in this folder.
+
+If you name it "klaus.wav" and the reference text "klaus.txt"  the resulting speakerid is "klaus".
