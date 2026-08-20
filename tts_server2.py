@@ -26,9 +26,9 @@ os.environ["TRANSFORMERS_VERBOSITY"] = "error"
 PORT = int(sys.argv[1]) if len(sys.argv) >= 2 else 9999
 OUTPUT_DIR = Path("/tmp")
 SPEAKER_DIR = Path(__file__).resolve().parent / "stimmen"
-DEFAULT_REF_AUDIO = "/home/videoenhancer/x/Qwen3-TTS/meine_stimme.wav"
+DEFAULT_REF_AUDIO = "/home/Qwen3-TTS/my_voice.wav"
 DEFAULT_REF_TEXT = """
-Ich war nicht sehr lange bei den Hells Angels. ich muß auch sagen ich war kein vollwertiges Mitglied damals. dabei hatte ich alles richtig gemacht. Ich war sechzehn. Also jung und voller Spannkraft 
+MY REFERENCE TEST FOR THE WAV FILE 
 """
 
 ##############################################################################
